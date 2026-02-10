@@ -2,16 +2,29 @@
   "schemaVersion": 1,
   "levels": [
     {
-      "name": "Intro Steps",
+      "name": "Intro Steps: Level 1",
       "gravity": 0.65,
       "jumpV": -11.0,
-      "theme": { "bg": "#F0F0F0", "platform": "#C8C8C8", "blob": "#1478FF" },
+      "theme": { "bg": "#FFFF", "platform": "#006400", "blob": "#1478FF" },
       "start": { "x": 80, "y": 220, "r": 26 },
       "platforms": [
         { "x": 0, "y": 324, "w": 640, "h": 36 },
         { "x": 120, "y": 254, "w": 120, "h": 12 },
         { "x": 300, "y": 204, "w": 90, "h": 12 },
         { "x": 440, "y": 144, "w": 130, "h": 12 },
+        { "x": 520, "y": 254, "w": 90, "h": 12 }
+      ]
+    },
+    {
+      "name": "Getting Used to it: Level 2",
+      "gravity": 0.65,
+      "jumpV": -11.0,
+      "theme": { "bg": "#E2F8E6", "platform": "#006400", "blob": "#1478FF" },
+      "start": { "x": 80, "y": 220, "r": 26 },
+      "platforms": [
+        { "x": 0, "y": 324, "w": 640, "h": 36 },
+        { "x": 220, "y": 240, "w": 120, "h": 12 },
+        { "x": 380, "y": 180, "w": 130, "h": 12 },
         { "x": 520, "y": 254, "w": 90, "h": 12 }
       ]
     }
